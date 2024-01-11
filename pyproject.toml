@@ -16,6 +16,10 @@ classifiers = [
   "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
 ]
+dependencies = [
+  "sche",
+  "prometheus_client",
+]
 
 [project.urls]
 Homepage = "https://github.com/pypa/sampleproject"
